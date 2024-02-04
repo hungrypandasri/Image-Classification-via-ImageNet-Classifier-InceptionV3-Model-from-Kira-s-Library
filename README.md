@@ -11,10 +11,10 @@ This project explores the robustness of neural networks, specifically focusing o
     - [Probabilistic Robustness Evaluation](#probabilistic-robustness-evaluation)
 3. [Resources](#resources)
     - [Dataset](#dataset)
-4. [Problem Set](#problem-set)
-    - [Exercise 1: Adversarial Example Generation](#exercise-1-adversarial-example-generation-for-resnet-18)
-    - [Exercise 2: Neural Network Visualization](#exercise-2-neural-network-visualization)
-    - [Exercise 3: Evaluation of Probabilistic Robustness](#exercise-3-evaluation-of-probabilistic-robustness)
+4. [Code Structure](#problem-set)
+    - [ 1: Adversarial Example Generation](#exercise-1-adversarial-example-generation-for-resnet-18)
+    - [ 2: Neural Network Visualization](#exercise-2-neural-network-visualization)
+    - [ 3: Evaluation of Probabilistic Robustness](#exercise-3-evaluation-of-probabilistic-robustness)
 5. [Reference](#reference)
 
 ## Introduction
