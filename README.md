@@ -34,19 +34,18 @@ Probabilistic robustness is measured by assessing the network's performance when
 ### Dataset
 A single stop sign image is used for this project. The image is available [here](https://static01.nyt.com/images/2011/12/11/magazine/11wmt1/mag-11WMT-t_CA0-jumbo.jpg), and in ImageNet, stop signs are considered 'street sign' class (class id 919).
 
-## Problem Set
-Exercises involve generating adversarial examples, visualizing neural network layers, and evaluating probabilistic robustness.
+Code Structure:
 
-### Exercise 1: Adversarial Example Generation for ResNet-18
+### 1: Adversarial Example Generation for ResNet-18
 1. Load the ResNet-18 model and predict the label for the provided stop sign image.
 2. Perform untargeted attacks with random perturbations and observe the impact on ResNet-18 predictions.
 3. Implement untargeted and targeted attacks using Fast Gradient Method (FGM) and Projected Gradient Descent (PGD), respectively.
 
-### Exercise 2: Neural Network Visualization
+### 2: Neural Network Visualization
 1. Visualize maximal activation of specific filters on the first and last convolutional layers of AlexNet.
 2. Visualize saliency maps for the last convolutional layer of AlexNet given the stop sign input.
 
-### Exercise 3: Evaluation of Probabilistic Robustness
+### 3: Evaluation of Probabilistic Robustness
 1. Estimate the misclassification rate of ResNet-18 with random perturbations.
 2. Compute and plot the relative error of the estimator.
 3. Sample around an adversarial example, apply FGM attack, and estimate the misclassification rate.
